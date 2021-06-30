@@ -40,7 +40,7 @@ spec:
       - env:
         - name: ALLOW_EMPTY_PASSWORD
           value: "yes"
-        image: gitopsflowacr.azurecr.io/azvote/azure-vote-back:517b7e947a39b1fc8aabdd803522ee282913f5b1
+        image: gitopsflowacr.azurecr.io/azvote/azure-vote-back:ddc94390db5d15d722e901781ad394f459dae369
         name: azure-vote-back
         ports:
         - containerPort: 6379
@@ -69,7 +69,7 @@ spec:
           value: azure-vote-back
         - name: TITLE
           value: Voting Application
-        image: gitopsflowacr.azurecr.io/azvote/azure-vote-front:517b7e947a39b1fc8aabdd803522ee282913f5b1
+        image: gitopsflowacr.azurecr.io/azvote/azure-vote-front:ddc94390db5d15d722e901781ad394f459dae369
         name: azure-vote-front
         ports:
         - containerPort: 80
