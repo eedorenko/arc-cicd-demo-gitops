@@ -5,8 +5,8 @@ namespace: dev-arcpg-gh
 
 images:
   - name: gitopsflowacr.azurecr.io/azvote/azure-vote-front
-    newTag: 2142c72bdd099ea112414f7a5b25ab49c45fa86d
+    newTag: c9aa0a7b3919240e0f5eea1947df8eb2d40bb23d
   - name: gitopsflowacr.azurecr.io/azvote/azure-vote-back
-    newTag: 2142c72bdd099ea112414f7a5b25ab49c45fa86d
+    newTag: c9aa0a7b3919240e0f5eea1947df8eb2d40bb23d
 resources:
   - manifests.yaml
