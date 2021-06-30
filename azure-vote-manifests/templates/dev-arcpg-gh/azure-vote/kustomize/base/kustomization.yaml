@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: dev-arcpg-gh
+
+images:
+  - name: gitopsflowacr.azurecr.io/azvote/azure-vote-front
+    newTag: 3459f40cdde942ff8ea1bed27512727b0ad0eda5
+  - name: gitopsflowacr.azurecr.io/azvote/azure-vote-back
+    newTag: 3459f40cdde942ff8ea1bed27512727b0ad0eda5
+resources:
+  - manifests.yaml
