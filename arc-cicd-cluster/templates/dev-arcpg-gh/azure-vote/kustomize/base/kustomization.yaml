@@ -4,9 +4,9 @@ kind: Kustomization
 namespace: dev-arcpg-gh
 
 images:
-  - name: gitopsflowacr.azurecr.io/azvote/azure-vote-front
-    newTag: 6b24ade01a368565c2a7206332d92d048fe15d3d
-  - name: gitopsflowacr.azurecr.io/azvote/azure-vote-back
-    newTag: 6b24ade01a368565c2a7206332d92d048fe15d3d
+  - name: testtutacr.azurecr.io/azvote/azure-vote-front
+    newTag: ff7d13147a39c906802156e1561175b38a9740e4
+  - name: testtutacr.azurecr.io/azvote/azure-vote-back
+    newTag: ff7d13147a39c906802156e1561175b38a9740e4
 resources:
   - manifests.yaml
