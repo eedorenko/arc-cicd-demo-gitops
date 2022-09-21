@@ -5,8 +5,8 @@ namespace: stage
 
 images:
   - name: testtutacr.azurecr.io/azvote/azure-vote-front
-    newTag: 28604d3b275d15ce27857f6d7534f7a072c06021
+    newTag: 2b62584dc2d0e2336335cf1eba110f1e3b87cddc
   - name: testtutacr.azurecr.io/azvote/azure-vote-back
-    newTag: 28604d3b275d15ce27857f6d7534f7a072c06021
+    newTag: 2b62584dc2d0e2336335cf1eba110f1e3b87cddc
 resources:
   - manifests.yaml
